@@ -5,41 +5,104 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="">
     <title>A new day</title>
-    <meta name="viewport" content="width=device">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Luiza Alexandru">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <ul class="nav">
-        <li class="selected">Home</li>
-        <li>About</li>
-        <li>Gallery</li>
-        <li>Contact</li>
+        <li class="selected">
+            <a href="#">
+            <i class="fa fa-home"></i>
+            <span>Home</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+            <i class="fa fa-adn"></i>
+            <span>About</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+            <i class="fa fa-image"></i>
+            <span>Gallery</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+            <i class="fa fa-file-text"></i>
+            <span>Contact</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+            <i class="fa fa-search"></i>
+            <span>Search</span>
+            </a>
+        </li>
     </ul>
 
     <header>
         <h1>A new day</h1>
     </header>
 
+    <div class="row">
+        <div class="column">
+            <span class="column-title">Title 1</span>
+            <p>Duis nec nisi arcu. Vestibulum at tortor molestie lectus dictum cursus sed eget ipsum.
+                Suspendisse dignissim ante purus, mattis rutrum quam aliquet vitae. Sed enim tellus, condimentum quis nisi eget, efficitur pulvinar enim.
+                Aliquam dignissim turpis a metus faucibus, ut imperdiet sem tincidunt.
+                Nulla facilisi. Aliquam consectetur ex at odio posuere efficitur.
+                Sed ut eleifend lacus, sed accumsan eros. Proin vel arcu et ipsum tempor feugiat.</p>
+        </div>
+        <div class="column">
+            <span class="column-title">Title 2</span>
+            <p>Pellentesque sit amet ante a justo venenatis congue. Etiam molestie, lacus ac gravida semper, est arcu sodales ligula, luctus aliquet dolor sapien non eros.
+                Duis accumsan odio a massa mollis viverra. Cras semper enim ac risus interdum, et vehicula odio placerat. Donec porttitor porttitor tincidunt. Ut at convallis tortor.
+                Etiam eget viverra magna. Mauris et elit commodo, gravida massa nec, aliquet nulla. Etiam vehicula imperdiet ornare. Curabitur orci turpis, tempus in venenatis a, convallis nec nunc.
+                Aliquam erat volutpat. Suspendisse potenti.</p>
+        </div>
+        <div class="column">
+            <span class="column-title">Title 3</span>
+            <p>Nulla ut pulvinar metus. Cras vulputate elit lobortis, venenatis lacus eget, pretium felis. Nulla ut massa vitae ex iaculis faucibus eu nec nulla.
+                Morbi at ante finibus, interdum urna ac, posuere libero. Nulla venenatis lectus augue, a suscipit massa eleifend vitae. Cras accumsan diam vitae mauris viverra, ut maximus libero pulvinar.
+                Maecenas eget lacus finibus nunc pretium placerat. Sed pulvinar fringilla fringilla. Aenean urna ex, sollicitudin non euismod vel, porttitor et dolor.
+                Nam urna arcu, aliquam placerat ultrices et, tempus sit amet risus. Donec mauris mi, efficitur nec lacinia vitae, commodo id magna.</p>
+        </div>
+    </div>
+
+
     <article>
     <h2>Coffee to wake you up!</h2>
 
     <p>A new day starts nicely when you smile and prepare a coffee</p>
 
-    <div class="gallery">
+    <div class="gallery row">
         <div><img src="images/coffee1.jpg" alt="Coffee"/></div>
-        <div><img src="./images/coffee2.jpg" alt="Coffee"/></div>
+        <div>
+            <h4>Something about history of coffee in Romania</h4>
+
+            <p>Coffee arrived in Romania at the beginning of the 20th century and was drunk more by aristocrats.
+            Specific to Romania is the "marghilomana" coffee that comes from the name of the politician Alexandru Marghiloman.
+            He, on a hunt, wanted to drink coffee and because he did not have water, his coffee was prepared  with cognac.
+            All the aristocrats of that period served in the cafes just so called: "marghilomana".</p>
+        </div>
         <div><img src="./images/coffee3.jpg" alt="Coffee"/></div>
+
     </div>
 
-    Image from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3190241">Pixabay</a>
 
-    <h4>Something about history of coffee in Romania</h4>
+        Image from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3190241">Pixabay</a>
 
-    <p>Coffee arrived in Romania at the beginning of the 20th century and was drunk more by aristocrats.</p>
-    <p>Specific to Romania is the "marghilomana" coffee that comes from the name of the politician Alexandru Marghiloman. He, on a hunt, wanted to drink coffee and because he did not have water, his coffee was prepared  with cognac.</p>
-    <p>All the aristocrats of that period served in the cafes just so called: "marghilomana".</p>
 
     </article>
+
+    <video width="800" height="400" controls>
+        <source src="videoRate.mp4" type="video/mp4">
+        Your browser does not support this video.
+    </video>
+
     <article>
     <h2>Tea for relax</h2>
 
@@ -71,6 +134,14 @@
     </article>
 
     <link rel="stylesheet" href="./index.css"   />
+
+    <div class="footer">
+        <div class="footer-item">About</div>
+        <div class="footer-item">Partner 1</div>
+        <div class="footer-item">Partner 2</div>
+        <div class="footer-item">Partner 3</div>
+        <div class="footer-item">Partner 4</div>
+    </div>
 </body>
 </html>
 
